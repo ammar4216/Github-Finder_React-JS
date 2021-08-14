@@ -1,0 +1,54 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.form input[type="text"] {
+  width: 90%;
+  padding: 0.6rem;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid #333;
+}
+
+.form input[type="submit"] {
+  width: 90%;
+  padding: 0.6rem;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #333;
+  color: white;
+}
+
+.search_user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 900px;
+  margin: 25px auto;
+}
+
+button {
+  width: 90%;
+  max-width: 900px;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: lightblue;
+  color: black;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}

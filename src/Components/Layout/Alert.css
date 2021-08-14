@@ -1,0 +1,20 @@
+.alert {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px auto;
+  background-color: rgba(196, 179, 179, 0.2);
+  padding: 0.7rem 1rem;
+  font-weight: bold;
+}
+p {
+  flex: 2;
+  padding: 0.2rem 0.6rem;
+}
+.fa-window-close {
+  font-size: 1.2rem;
+  cursor: pointer;
+}

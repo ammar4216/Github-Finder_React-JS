@@ -1,0 +1,17 @@
+.about header {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(67, 127, 198, 1) 100%
+  );
+  padding: 2.5rem;
+  margin-top: -1rem;
+}
+
+.about p {
+  line-height: 1.5;
+}
+.about p ul {
+  margin-top: 1rem;
+}

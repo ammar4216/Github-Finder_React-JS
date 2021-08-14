@@ -1,0 +1,32 @@
+.user_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin: 1rem;
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  border-radius: 10px;
+}
+
+.user_item img {
+  width: 160px;
+  border-radius: 50%;
+  margin-bottom: 0.7rem;
+}
+
+.user_item h2 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  margin-bottom: 0.8rem;
+}
+
+.user_item a {
+  text-decoration: none;
+  padding: 0.7rem 1.5rem;
+  background-color: #333;
+  color: #eee;
+  border-radius: 15px;
+  font-weight: bold;
+  text-shadow: 1px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
